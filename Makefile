@@ -14,3 +14,7 @@ build:
 run:
 	- open http://localhost:8080
 	docker run -p 8080:80 skyzyx/nginx-hello-world:latest
+
+.PHONY: push
+push:
+	docker push skyzyx/nginx-hello-world:latest
