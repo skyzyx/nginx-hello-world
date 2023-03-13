@@ -1,0 +1,6 @@
+ignored:
+  - DL3017 # https://github.com/hadolint/hadolint/wiki/DL3017
+  - DL3059 # https://github.com/hadolint/hadolint/wiki/DL3059 (bad advice)
+
+trustedRegistries:
+  - docker.io # Official upstream
